@@ -1,11 +1,8 @@
-use std::{
-    io::{Read},
-};
-
+use std::io::Read;
 
 use lapce_plugin::{register_plugin, start_lsp, LapcePlugin};
 use serde::{Deserialize, Serialize};
-use serde_json::{Value};
+use serde_json::Value;
 
 #[derive(Default)]
 struct State {}

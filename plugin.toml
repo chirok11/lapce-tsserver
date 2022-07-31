@@ -12,3 +12,5 @@ language_id = "javascript"
 # [configuration.options.diagnostics]
 # enable = false
 # enableExperimental = false
+[configuration.options.binary]
+args = ["--stdio"]
