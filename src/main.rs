@@ -32,6 +32,6 @@ impl LapcePlugin for State {
     fn initialize(&mut self, info: serde_json::Value) {
         let info = serde_json::from_value::<PluginInfo>(info).unwrap();
         let file_name = "/usr/bin/typescript-language-server";
-        start_lsp(&file_name, "js", info.configuration.options);
+        start_lsp(&file_name, "javascript", info.configuration.options);
     }
 }

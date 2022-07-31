@@ -7,7 +7,7 @@ repository = "chirok11/lapce-tsserver"
 wasm = "lapce-tsserver.wasm"
 
 [configuration]
-language_id = "js"
+language_id = "javascript"
 
 # [configuration.options.diagnostics]
 # enable = false
