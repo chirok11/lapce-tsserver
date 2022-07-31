@@ -1,14 +1,11 @@
 use std::{
-    fs::File,
-    io::{self, Read, Write},
-    path::PathBuf,
-    process::Command,
+    io::{Read},
 };
 
-use flate2::read::GzDecoder;
-use lapce_plugin::{register_plugin, send_notification, start_lsp, LapcePlugin};
+
+use lapce_plugin::{register_plugin, start_lsp, LapcePlugin};
 use serde::{Deserialize, Serialize};
-use serde_json::{json, Value};
+use serde_json::{Value};
 
 #[derive(Default)]
 struct State {}
