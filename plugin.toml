@@ -1,13 +1,14 @@
-name = "lapce-rust"
-display-name = "Rust"
-description = "Rust for Lapce: powered by Rust Analyzer"
-version = "0.1.8"
-author = "Lapce"
-repository = "lapce/lapce-rust"
-wasm = "lapce-rust.wasm"
+name = "lapce-tsserver"
+display-name = "JavaScript/TypeScript"
+description = "JS/TS for Lapce: powered by TSServer"
+version = "0.1.0"
+author = "Chirok11"
+repository = "chirok11/lapce-tsserver"
+wasm = "lapce-tsserver.wasm"
 
 [configuration]
-language_id = "rust"
-[configuration.options.diagnostics]
-enable = false
-enableExperimental = false
+language_id = "js"
+
+# [configuration.options.diagnostics]
+# enable = false
+# enableExperimental = false
